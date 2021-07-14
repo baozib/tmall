@@ -1,0 +1,240 @@
+/* 整体设置 */
+body{
+    font-size:12px;
+    font-family:Arial;
+    min-width:1020px;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+/* 天猫logo */
+.tmall-logo{
+    height: 27px;
+    width: 190px;
+}
+/* 登入界面顶部  */
+#login-top{
+    position: relative;
+    width: 1190;
+    height: 81px;
+}
+/* 登入界面顶部a标签 */
+#login-top a{
+    position: absolute;
+    top: 25px;
+    left: 280px;
+}
+/* 登入界面中间部分
+ */
+#login-mid{
+    background: red;
+    height: 600px;
+    background: rgb(221, 39, 38);
+    width: auto;
+    position: relative;
+}
+/* 天猫图片 */
+#login-mid img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+/* 登入框外围 */
+#login-mid div.block-frame{
+    position: absolute;
+    width: 350px;
+    height: 404px;
+    top: 15%;
+    left: 60%;
+    background: white;
+    -moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090;
+    box-shadow:2px 2px 10px #909090;
+}
+/* 登入框内围 */
+#login-mid div.block-frame div.input{
+    position: absolute;
+    top: 8%;
+    left: 7%;
+    width: 300px;
+    height: 252px;
+}
+
+#login-user:focus,#login-pass:focus{
+    outline: none;
+    border: 1px solid red;
+}
+
+/* 切换框 */
+#login-mid div.block-frame div.input div.switch-select{
+    position: absolute;
+    z-index: 5;
+}
+.btn-password,.btn-email{
+    float: left;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 600;
+    height: 26px;
+}
+/* 切换框下划线 */
+.under{
+    border-bottom: 2px solid black;
+}
+
+.btn-email{
+    margin-left: 10px;
+}
+
+.input>div:nth-child(2){
+    position: absolute;
+
+    top: 50px;
+    left: 40px;
+}
+/* 设置input边框 */
+.input>div input{
+    font-size: 14px;
+    height: 41px;
+    width: 245px;
+    border-top: 1px solid rgb(241,238,238);
+    border-right: 1px solid rgb(241,238,238);
+    border-bottom: 1px solid rgb(241,238,238);
+    border-left: 0px solid rgb(241,238,238);
+    padding-left: 8px;
+}
+.input>div:nth-child(3)
+{
+    position: absolute;
+    margin-top: 115px;
+    background: chartreuse;
+    left: 40px;
+}
+.avatar-username,.avatar-password{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: rgb(204,204,204);
+    left: -40px;
+
+}
+/* 设置图片大小边距 */
+.avatar-username svg{
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+}
+.avatar-password svg{
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+/* 设置点击边框 */
+.suv{
+    /* border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    border-left: 1px solid red; */
+}
+/* 确认按钮 */
+.cartain{
+    position: absolute;
+    height: 42px;
+    width: 300px;
+    margin-top: 180px;
+    background: red;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 3px;
+}
+
+.extra-oper{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 115px;
+    float: left;
+}
+/* 设置标签颜色 取消下划线 */
+.extra-oper a{
+    color: rgb(107, 108, 108);
+}
+a{
+    text-decoration: none;
+}
+/* 设置忘记用户名左右间距 */
+.extra-oper a:nth-child(2){
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#login-tail{
+    height: 200px;
+    position: relative;
+
+}
+#login-tail div.content-one{
+    position: absolute;
+    margin: 0 auto;
+    width: 1190px;
+    height: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+#login-tail div.content-one a,#login-tail div.content-two a{
+    position: relative;
+    color: black;
+    top: 45px;
+    margin-right: 8px;
+}
+
+#login-tail div.content-two{
+    position: relative;
+    margin: 0 auto;
+    width: 1190px;
+    height: 50px;
+    top: 60px;
+
+}
+#login-tail div.content-two a{
+    top: 20px;
+}
+#login-tail div.content-three{
+    position: relative;
+    margin: 0 auto;
+    width: 1190px;
+    height: 120px;
+    top: 60px;
+    color: rgb(102, 102, 102);
+}
+#login-tail div.content-three *{
+    margin-right: 50px;
+
+}
+.alert{
+    position: fixed;width: 200px;height: 50px; top: 380px; left: 780px; font-size: 17px;
+    text-align: center;
+}
+
+.login-logo{
+    position: relative;
+    left: 1069px;
+    top: -680px;
+    z-index: 1;
+}

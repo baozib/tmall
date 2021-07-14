@@ -1,0 +1,508 @@
+
+
+nav.top_outer {
+    background-color: rgb(242, 242, 242);
+    border-bottom:1px solid  #e7e7e7;
+    -moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090;
+    box-shadow:2px 2px 10px #909090;
+    height: 35px;
+}
+nav div.top {
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    margin-left: 250px;
+}
+nav div.top a, nav div.top span {
+    color: rgb(156, 155, 154);
+    margin: 0 10px;
+    padding: 3px;
+}
+
+
+nav div.top a:hover {
+    text-decoration: none;
+    color: rgb(196, 0, 0);
+}
+.redColor {
+    color: rgb(196, 0, 0) !important;
+}
+.reverse {
+    transform: rotateY(180deg); /*原来的购物车图标方向向左，改成向右*/
+}
+.mainpage{
+    left: -20px;
+    position: relative;
+}
+.mainpage span{
+    left: 10px;
+}
+.shop-cart-pic span{
+    left: 10px;
+}
+
+.shopNo{
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+.pull-right a{
+    position: relative;
+    top: -4px;
+}
+.pull-right a:nth-child(1){
+    position: relative;
+    margin-right: -20px;
+}
+.collect a img{
+    position: relative;
+    top: -1px;
+    left: -2px;
+}
+.box-collect:hover img{
+    transform: rotate(180deg);  
+    -webkit-transform: rotate(180deg);  
+    -moz-transform: rotate(180deg);  
+    -o-transform: rotate(180deg);  
+    -ms-transform: rotate(180deg);  
+}
+
+.arrow{  
+    margin: -15px 500px;
+    display: block;  
+    transition: all 0.2s ease-in-out;  
+    -webkit-transition: all 0.2s ease-in-out;  
+    -moz-transition: all 0.2s ease-in-out;  
+    -o-transition: all 0.2s ease-in-out;  
+}  
+.logo-search-shopcart{
+    height: 125px;
+
+}
+
+.logo-search-shopcart>img:nth-child(1){
+    width: 200px;
+    height: 70px;
+    position: relative;
+    margin-left: 260px;
+    top: 25px;
+}
+.direct{
+
+    background: red;
+    height: 50px;
+}
+.direct>div{
+    float: left;
+    color: white;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+    width: 70px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.direct div:hover{
+    background: tomato;
+}
+
+.direct>div:nth-child(1){
+    position: relative;
+    left: 255px;
+
+    color: white;
+
+}
+.direct>div:nth-child(2){
+    position: relative;
+    left: 255px;
+    color: white;
+
+    width: 100px;
+}
+.direct>div:nth-child(3){
+    position: relative;
+    left: 255px;
+
+    color: white;
+    width: 80px;
+}
+
+.direct>div:nth-child(4){
+    position: relative;
+    left: 255px;
+    color: white;
+
+    width: 100px;
+}
+.direct>div:nth-child(5){
+    position: relative;
+    left: 255px;
+    width: 100px;
+    color: white;
+}
+.direct>div:nth-child(6){
+    position: relative;
+    left: 255px;
+    width: 100px;
+    color: white;
+}
+.direct>div:nth-child(7){
+    position: relative;
+    left: 700px;
+
+    color: white;
+}
+.direct>div:nth-child(8){
+    position: relative;
+    left: 700px;
+    color: white;
+    width: 100px;
+
+}
+.sign{
+    margin: 15px 275px;
+    font-size: 13px !important;
+    color: grey !important;
+ }
+ .search{
+    position: absolute;
+    height: 40px;
+    width: 470px;
+    left: 300px;
+    top:40px;
+}
+.search input{
+    border: 2px solid red;
+    outline: none;
+    font-size: 14px;
+}
+.search span{
+    position: relative;
+    top: 40px;
+    left: 760px;
+    font-size: 18px;
+    font-weight: 600;
+    background: red;
+    border: 3px solid red;
+    color: white;
+    height: 40px;
+    width: 130px;
+    display: block;
+    padding-left: 40px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+input{
+    padding-left: 10px;
+}
+
+.condition{
+    margin: 15px auto;
+    width: 1000px;
+    height: 165px;
+    border: 1px solid rgb(235, 235, 235);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.condition>div{
+    float: left;
+    text-align: center;
+}
+
+.condition-one{
+    border-bottom: 1px dashed  rgb(218, 215, 215);
+    width: 1000px;
+    height: 55px;
+
+}
+
+.condition-one>div,.condition-two>div,.condition-three>div{
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+
+.condition-two{
+    border-bottom: 1px dashed rgb(218, 215, 215);
+    width: 1000px;
+    height: 55px;
+
+}
+
+.condition-three{
+    border-bottom: 1px dashed  rgb(218, 215, 215);
+
+    width: 1000px;
+    height: 55px;
+}
+
+.condition-one>div,.condition-two>div,.condition-three>div{
+    float: left;
+    
+}
+
+.condition-one-one,.condition-two-one,.condition-three-one{
+    color: gray;
+}
+
+
+
+.condition-one-one,.condition-two-one,.condition-three-one{
+    line-height: 55px;
+}
+
+.condition-one-two{
+    background: rgb(235,233,233);
+    border: 1px solid rgb(219,218,218);
+    width: 70px;
+    height: 30px;
+    
+    position: relative;
+    top: 12px;
+    line-height: 30px;
+
+}
+.condition-one-three{
+    background: rgb(235,233,233);
+    border: 1px solid rgb(219,218,218);
+    width: 70px;
+    height: 30px;
+   
+    position: relative;
+    top: 12px;
+    line-height: 30px;
+
+}
+.condition-one-four{
+    background: rgb(235,233,233);
+    border: 1px solid rgb(219,218,218);
+    width: 70px;
+ 
+    position: relative;
+    top: 12px;
+    line-height: 30px;
+}
+.condition-one-five{
+    background: rgb(235,233,233);
+    border: 1px solid rgb(219,218,218);
+    width: 70px;
+    height: 30px;
+
+    position: relative;
+    top: 12px;
+    line-height: 30px;
+}
+
+/* ========================== */
+
+.condition-two-two{
+    background: rgb(235,233,233);
+    border: 1px solid rgb(219,218,218);
+    width: 70px;
+    height: 30px;
+    
+    position: relative;
+    top: 12px;
+    line-height: 30px;
+
+}
+.condition-two-three{
+    background: rgb(235,233,233);
+    border: 1px solid rgb(219,218,218);
+    width: 70px;
+    height: 30px;
+   
+    position: relative;
+    top: 12px;
+    line-height: 30px;
+
+}
+.condition-two-four{
+    background: rgb(235,233,233);
+    border: 1px solid rgb(219,218,218);
+    width: 70px;
+ 
+    position: relative;
+    top: 12px;
+    line-height: 30px;
+}
+.condition-two-five{
+    background: rgb(235,233,233);
+    border: 1px solid rgb(219,218,218);
+    width: 85px;
+    height: 30px;
+
+    position: relative;
+    top: 12px;
+    line-height: 30px;
+}
+
+.condition-three-two{
+    background: rgb(235,233,233);
+    border: 1px solid rgb(219,218,218);
+    width: 70px;
+    height: 30px;
+    
+    position: relative;
+    top: 12px;
+    line-height: 30px;
+
+}
+.condition-three-three{
+    background: rgb(235,233,233);
+    border: 1px solid rgb(219,218,218);
+    width: 70px;
+    height: 30px;
+   
+    position: relative;
+    top: 12px;
+    line-height: 30px;
+
+}
+.condition-three-four{
+    background: rgb(235,233,233);
+    border: 1px solid rgb(219,218,218);
+    width: 70px;
+ 
+    position: relative;
+    top: 12px;
+    line-height: 30px;
+}
+.condition-three-five{
+    background: rgb(235,233,233);
+    border: 1px solid rgb(219,218,218);
+    width: 70px;
+ 
+    position: relative;
+    top: 12px;
+    line-height: 30px;
+}
+
+
+.life-goods{
+    height: 1550px;
+    width: 1000px;
+    margin: 20px auto;
+    background: rgb(245, 245, 245);
+    -moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090;
+    box-shadow:2px 2px 10px #909090;
+}
+
+
+.life-goods div,.life-goods>img{
+    float: left;
+}
+.life-goods-one>img{
+    height: 190px;
+    width: 190px;
+    position: relative;
+    left: 20px;
+}
+
+.myself-name{
+    position: relative !important;
+    top: 0px !important;
+    left: -250px !important;
+
+}
+
+.life-goods-one{
+    height: 300px;
+    width: 231.775px;
+    background: white;
+    margin-left: 13px;
+    margin-bottom: 12px;
+    margin-right: 3px;
+    border: 3px solid rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+.fr{
+    color: red;
+}
+
+.life-goods-one:hover{
+    border: 3px solid red;
+    opacity: 0.9;
+}
+
+.font-goods{
+    font-size: 13px;
+    font-weight: bold;
+    width: 200px;
+    margin: o auto;
+    position: relative;
+    left: 20px;
+    height: 40px;
+}
+.under-goods{
+    background: rgb(229,229,229);
+    width: 200px;
+    height: 1px;
+    margin: o auto;
+    position: relative;
+    left: 20px;
+    margin-top: 5px;
+}
+.big-pic:hover{
+    animation-name: myframe;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+.cleanfloat::after{
+    display: block;
+    clear: both;
+    content:""; 
+    visibility: hidden; 
+    height: 0;
+}/*清浮动*/
+div li{
+    list-style:none; 
+    float:left; 
+    font-size:15px; 
+    left: 15px;
+    margin: 5px;
+    color:#ccc; 
+    position: relative;
+}/*五角星样式*/
+
+.price-goods{
+    color: red;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.recycle{
+    background: rgb(221,223,223);
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 170px;
+    border-radius: 50px;
+}
+.recycle img{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+
+#page-help{
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}

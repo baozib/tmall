@@ -1,0 +1,991 @@
+00:01:43.394 [main] INFO  com.baozi.TmallApplication - 1
+00:01:43.860 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 9696 (D:\tmall\target\classes started by yeguang in D:\tmall)
+00:01:43.862 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+00:01:44.920 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+00:01:44.920 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:01:44.920 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+00:01:45.088 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:01:45.094 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:01:45.213 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:01:45.266 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:01:46.264 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:01:46.520 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+00:01:46.550 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:01:46.560 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:01:46.578 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:01:46.611 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:01:46.759 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.219 seconds (JVM running for 4.713)
+00:01:46.862 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [218] milliseconds.
+00:17:32.825 [main] INFO  com.baozi.TmallApplication - 1
+00:17:33.811 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 12184 (D:\tmall\target\classes started by yeguang in D:\tmall)
+00:17:33.813 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+00:17:35.698 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+00:17:35.699 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:17:35.699 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+00:17:35.978 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:17:36.025 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:17:36.204 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:17:36.452 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:17:38.227 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:17:38.558 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+00:17:38.587 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:17:38.612 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:17:38.631 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:17:38.797 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 5.852 seconds (JVM running for 7.378)
+00:17:38.843 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:17:39.221 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [342] milliseconds.
+00:20:09.430 [http-nio-8888-exec-7] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 145201
+00:20:09.445 [http-nio-8888-exec-5] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 146022
+00:23:29.114 [main] INFO  com.baozi.TmallApplication - 1
+00:23:29.375 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 18304 (D:\tmall\target\classes started by yeguang in D:\tmall)
+00:23:29.377 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+00:23:30.178 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+00:23:30.179 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:23:30.179 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+00:23:30.329 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:23:30.333 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:23:30.444 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:23:30.493 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:23:31.524 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:23:31.785 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+00:23:31.804 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:23:31.814 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:23:31.830 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:23:31.983 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.821 seconds (JVM running for 3.68)
+00:23:34.581 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:23:35.305 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [223] milliseconds.
+00:25:01.106 [main] INFO  com.baozi.TmallApplication - 1
+00:25:01.425 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 10396 (D:\tmall\target\classes started by yeguang in D:\tmall)
+00:25:01.428 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+00:25:02.261 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+00:25:02.261 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:25:02.261 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+00:25:02.416 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:25:02.421 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:25:02.529 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:25:02.581 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:25:03.633 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:25:03.886 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+00:25:03.903 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:25:03.913 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:25:03.930 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:25:04.066 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.897 seconds (JVM running for 3.834)
+00:25:08.115 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:25:08.357 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [209] milliseconds.
+00:25:36.364 [main] INFO  com.baozi.TmallApplication - 1
+00:25:36.677 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 10060 (D:\tmall\target\classes started by yeguang in D:\tmall)
+00:25:36.679 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+00:25:37.491 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+00:25:37.491 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:25:37.492 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+00:25:37.628 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:25:37.631 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:25:37.742 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:25:37.794 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:25:38.772 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:25:39.108 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+00:25:39.136 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:25:39.158 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:25:39.195 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:25:39.417 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.998 seconds (JVM running for 3.916)
+00:25:39.839 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:25:40.155 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [278] milliseconds.
+00:26:40.867 [main] INFO  com.baozi.TmallApplication - 1
+00:26:41.218 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 2460 (D:\tmall\target\classes started by yeguang in D:\tmall)
+00:26:41.220 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+00:26:42.065 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+00:26:42.066 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:26:42.066 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+00:26:42.215 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:26:42.219 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:26:42.326 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:26:42.375 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:26:43.350 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:26:43.591 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+00:26:43.612 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:26:43.623 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:26:43.639 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:26:43.784 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.839 seconds (JVM running for 3.801)
+00:26:47.526 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:26:47.764 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [207] milliseconds.
+00:27:30.191 [main] INFO  com.baozi.TmallApplication - 1
+00:27:30.549 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 9048 (D:\tmall\target\classes started by yeguang in D:\tmall)
+00:27:30.552 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+00:27:31.401 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+00:27:31.401 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:27:31.401 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+00:27:31.552 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:27:31.557 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:27:31.667 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:27:31.719 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:27:32.775 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:27:33.235 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+00:27:33.277 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:27:33.290 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:27:33.331 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:27:33.372 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:27:33.624 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.351 seconds (JVM running for 4.27)
+00:27:33.718 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [306] milliseconds.
+00:28:24.728 [main] INFO  com.baozi.TmallApplication - 1
+00:28:25.054 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 14660 (D:\tmall\target\classes started by yeguang in D:\tmall)
+00:28:25.056 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+00:28:25.883 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+00:28:25.883 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:28:25.884 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+00:28:26.020 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:28:26.024 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:28:26.138 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:28:26.188 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:28:27.135 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:28:27.377 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+00:28:27.396 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:28:27.406 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:28:27.422 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:28:27.575 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.774 seconds (JVM running for 3.746)
+00:28:31.296 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:28:31.536 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [209] milliseconds.
+00:29:56.063 [main] INFO  com.baozi.TmallApplication - 1
+00:29:56.393 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 9072 (D:\tmall\target\classes started by yeguang in D:\tmall)
+00:29:56.395 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+00:29:57.254 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+00:29:57.255 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:29:57.255 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+00:29:57.460 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:29:57.467 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:29:57.666 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:29:57.784 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:29:59.031 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:29:59.384 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+00:29:59.406 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:29:59.417 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:29:59.439 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:29:59.463 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:29:59.633 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.511 seconds (JVM running for 4.467)
+00:29:59.734 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [235] milliseconds.
+00:31:51.634 [main] INFO  com.baozi.TmallApplication - 1
+00:31:51.957 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 9260 (D:\tmall\target\classes started by yeguang in D:\tmall)
+00:31:51.959 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+00:31:53.001 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+00:31:53.001 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:31:53.002 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+00:31:53.253 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:31:53.258 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:31:53.435 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:31:53.531 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:31:54.768 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:31:55.078 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+00:31:55.097 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:31:55.108 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:31:55.128 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:31:55.157 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:31:55.305 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.615 seconds (JVM running for 4.615)
+00:31:55.425 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [234] milliseconds.
+00:33:10.922 [main] INFO  com.baozi.TmallApplication - 1
+00:33:11.261 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 13684 (D:\tmall\target\classes started by yeguang in D:\tmall)
+00:33:11.263 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+00:33:12.202 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+00:33:12.203 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:33:12.203 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+00:33:12.362 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:33:12.367 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:33:12.499 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:33:12.560 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:33:13.869 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:33:14.133 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+00:33:14.153 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:33:14.164 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:33:14.192 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:33:14.351 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.364 seconds (JVM running for 4.348)
+00:33:14.871 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:33:15.135 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [228] milliseconds.
+00:35:29.086 [main] INFO  com.baozi.TmallApplication - 1
+00:35:29.390 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 17680 (D:\tmall\target\classes started by yeguang in D:\tmall)
+00:35:29.391 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+00:35:30.220 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+00:35:30.221 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:35:30.221 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+00:35:30.396 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:35:30.406 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:35:30.561 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:35:30.697 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:35:31.988 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:35:32.298 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+00:35:32.330 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:35:32.342 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:35:32.362 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:35:32.365 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:35:32.539 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.387 seconds (JVM running for 4.347)
+00:35:32.634 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [236] milliseconds.
+00:36:36.632 [main] INFO  com.baozi.TmallApplication - 1
+00:36:36.927 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 1012 (D:\tmall\target\classes started by yeguang in D:\tmall)
+00:36:36.929 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+00:36:38.136 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+00:36:38.137 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:36:38.137 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+00:36:38.349 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:36:38.356 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:36:38.525 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:36:38.624 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:36:39.769 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:36:40.087 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+00:36:40.108 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:36:40.131 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:36:40.151 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:36:40.153 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:36:40.314 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.617 seconds (JVM running for 4.558)
+00:36:40.390 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [210] milliseconds.
+00:44:53.431 [http-nio-8888-exec-6] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 487113
+00:44:53.431 [http-nio-8888-exec-9] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 489661
+00:44:53.431 [http-nio-8888-exec-4] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 487113
+00:48:16.649 [main] INFO  com.baozi.TmallApplication - 1
+00:48:17.160 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 19224 (D:\tmall\target\classes started by yeguang in D:\tmall)
+00:48:17.162 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+00:48:19.021 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+00:48:19.021 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+00:48:19.022 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+00:48:19.247 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+00:48:19.285 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+00:48:19.474 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+00:48:19.635 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+00:48:21.776 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+00:48:22.137 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+00:48:22.159 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+00:48:22.181 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+00:48:22.215 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+00:48:22.246 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+00:48:22.402 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 5.636 seconds (JVM running for 8.595)
+00:48:22.499 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [220] milliseconds.
+08:19:16.138 [main] INFO  com.baozi.TmallApplication - 1
+08:19:17.809 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 2748 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:19:17.825 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:19:19.965 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:19:19.965 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:19:19.965 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:19:20.215 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:19:20.231 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:19:20.402 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:19:20.559 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:19:22.324 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:19:22.886 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:19:22.902 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:19:22.917 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:19:22.933 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:19:23.089 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 6.212 seconds (JVM running for 9.645)
+08:19:37.602 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:19:37.890 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [202] milliseconds.
+08:25:38.480 [main] INFO  com.baozi.TmallApplication - 1
+08:25:38.902 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 19056 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:25:38.918 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:25:39.969 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:25:39.969 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:25:39.969 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:25:40.141 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:25:40.141 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:25:40.282 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:25:40.360 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:25:41.526 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:25:41.791 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:25:41.823 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:25:41.823 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:25:41.838 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:25:41.989 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.45 seconds (JVM running for 4.634)
+08:25:59.350 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:25:59.585 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [188] milliseconds.
+08:26:51.467 [main] INFO  com.baozi.TmallApplication - 1
+08:26:51.858 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 3956 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:26:51.873 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:26:52.686 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:26:52.686 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:26:52.686 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:26:52.827 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:26:52.827 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:26:52.937 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:26:53.000 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:26:53.953 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:26:54.270 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:26:54.287 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:26:54.287 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:26:54.303 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:26:54.463 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.896 seconds (JVM running for 4.063)
+08:26:58.034 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:26:58.270 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [205] milliseconds.
+08:27:07.444 [main] INFO  com.baozi.TmallApplication - 1
+08:27:08.022 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 12008 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:27:08.022 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:27:09.112 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:27:09.113 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:27:09.114 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:27:09.292 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:27:09.296 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:27:09.435 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:27:09.498 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:27:10.510 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:27:10.765 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:27:10.781 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:27:10.796 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:27:10.812 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:27:10.969 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.375 seconds (JVM running for 4.652)
+08:27:12.487 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:27:12.733 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [213] milliseconds.
+08:32:11.937 [main] INFO  com.baozi.TmallApplication - 1
+08:32:12.413 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 3884 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:32:12.413 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:32:13.412 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:32:13.412 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:32:13.413 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:32:13.604 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:32:13.610 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:32:13.739 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:32:13.798 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:32:15.009 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:32:15.296 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:32:15.325 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:32:15.335 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:32:15.352 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:32:15.498 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.473 seconds (JVM running for 4.726)
+08:32:15.513 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:32:16.241 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [275] milliseconds.
+08:33:23.689 [main] INFO  com.baozi.TmallApplication - 1
+08:33:24.302 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 3200 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:33:24.304 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:33:25.262 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:33:25.263 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:33:25.263 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:33:25.425 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:33:25.429 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:33:25.546 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:33:25.602 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:33:26.764 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:33:27.022 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:33:27.052 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:33:27.063 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:33:27.080 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:33:27.175 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:33:27.238 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.46 seconds (JVM running for 4.772)
+08:33:27.886 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [245] milliseconds.
+08:36:18.999 [http-nio-8888-exec-7] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 163718
+08:36:20.912 [http-nio-8888-exec-9] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 169961
+08:36:20.912 [http-nio-8888-exec-4] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 169961
+08:39:02.667 [main] INFO  com.baozi.TmallApplication - 1
+08:39:03.161 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 16932 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:39:03.161 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:39:04.078 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:39:04.078 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:39:04.078 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:39:04.218 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:39:04.218 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:39:04.328 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:39:04.374 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:39:05.291 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:39:05.541 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:39:05.556 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:39:05.572 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:39:05.587 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:39:05.728 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.973 seconds (JVM running for 4.076)
+08:39:07.316 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:39:07.992 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [206] milliseconds.
+08:40:33.210 [main] INFO  com.baozi.TmallApplication - 1
+08:40:33.846 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 14188 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:40:33.851 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:40:35.079 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:40:35.080 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:40:35.080 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:40:35.243 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:40:35.247 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:40:35.375 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:40:35.428 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:40:36.459 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:40:36.745 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:40:36.763 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:40:36.773 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:40:36.790 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:40:36.915 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.594 seconds (JVM running for 5.05)
+08:40:37.228 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:40:38.048 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [242] milliseconds.
+08:41:02.559 [main] INFO  com.baozi.TmallApplication - 1
+08:41:03.106 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 17860 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:41:03.106 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:41:04.013 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:41:04.013 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:41:04.013 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:41:04.169 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:41:04.185 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:41:04.294 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:41:04.341 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:41:05.388 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:41:05.691 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:41:05.711 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:41:05.722 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:41:05.739 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:41:05.899 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.249 seconds (JVM running for 4.299)
+08:41:07.900 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:41:08.500 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [201] milliseconds.
+08:42:19.766 [main] INFO  com.baozi.TmallApplication - 1
+08:42:20.157 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 2484 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:42:20.157 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:42:21.189 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:42:21.189 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:42:21.189 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:42:21.329 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:42:21.329 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:42:21.439 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:42:21.485 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:42:22.408 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:42:22.626 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:42:22.658 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:42:22.658 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:42:22.673 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:42:22.829 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.981 seconds (JVM running for 4.06)
+08:42:24.652 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:42:25.238 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [203] milliseconds.
+08:43:13.867 [main] INFO  com.baozi.TmallApplication - 1
+08:43:14.336 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 18568 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:43:14.336 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:43:15.196 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:43:15.196 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:43:15.196 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:43:15.352 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:43:15.352 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:43:15.462 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:43:15.508 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:43:16.431 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:43:16.665 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:43:16.681 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:43:16.696 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:43:16.712 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:43:16.853 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.896 seconds (JVM running for 3.974)
+08:43:18.370 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:43:19.114 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [206] milliseconds.
+08:45:01.374 [main] INFO  com.baozi.TmallApplication - 1
+08:45:01.858 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 16860 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:45:01.858 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:45:02.696 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:45:02.696 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:45:02.696 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:45:02.868 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:45:02.868 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:45:02.972 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:45:03.019 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:45:04.091 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:45:04.310 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:45:04.341 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:45:04.341 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:45:04.357 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:45:04.497 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.03 seconds (JVM running for 4.082)
+08:45:07.644 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:45:08.222 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [200] milliseconds.
+08:45:57.248 [main] INFO  com.baozi.TmallApplication - 1
+08:45:57.686 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 2832 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:45:57.686 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:45:58.545 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:45:58.545 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:45:58.545 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:45:58.686 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:45:58.686 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:45:58.795 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:45:58.858 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:45:59.921 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:46:00.218 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:46:00.234 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:46:00.265 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:46:00.281 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:46:00.421 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.083 seconds (JVM running for 4.135)
+08:46:02.102 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:46:02.758 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [207] milliseconds.
+08:46:51.392 [main] INFO  com.baozi.TmallApplication - 1
+08:46:51.918 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 8416 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:46:51.921 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:46:53.542 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:46:53.543 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:46:53.543 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:46:53.832 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:46:53.838 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:46:53.955 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:46:54.092 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:46:55.573 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:46:55.982 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:46:56.003 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:46:56.027 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:46:56.044 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:46:56.188 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 4.695 seconds (JVM running for 6.566)
+08:46:56.652 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:46:57.738 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [197] milliseconds.
+08:50:50.170 [main] INFO  com.baozi.TmallApplication - 1
+08:50:50.625 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 15456 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:50:50.625 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:50:51.630 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:50:51.630 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:50:51.631 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:50:51.782 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:50:51.795 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:50:51.942 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:50:52.000 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:50:53.200 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:50:53.468 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:50:53.487 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:50:53.508 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:50:53.526 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:50:53.664 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:50:53.689 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.361 seconds (JVM running for 4.644)
+08:50:54.296 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [224] milliseconds.
+08:51:12.815 [main] INFO  com.baozi.TmallApplication - 1
+08:51:13.269 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 10832 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:51:13.269 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:51:14.128 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:51:14.128 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:51:14.128 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:51:14.268 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:51:14.268 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:51:14.376 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:51:14.423 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:51:15.361 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:51:15.681 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:51:15.704 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:51:15.718 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:51:15.738 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:51:15.908 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.018 seconds (JVM running for 4.009)
+08:51:16.483 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:51:17.210 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [266] milliseconds.
+08:54:12.895 [main] INFO  com.baozi.TmallApplication - 1
+08:54:13.374 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 9660 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:54:13.374 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:54:14.243 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:54:14.243 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:54:14.243 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:54:14.383 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:54:14.399 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:54:14.493 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:54:14.540 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:54:15.487 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:54:15.721 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:54:15.737 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:54:15.753 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:54:15.768 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:54:15.909 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.925 seconds (JVM running for 4.051)
+08:54:45.078 [main] INFO  com.baozi.TmallApplication - 1
+08:54:45.566 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 6896 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:54:45.568 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:54:46.555 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:54:46.555 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:54:46.555 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:54:46.705 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:54:46.710 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:54:46.825 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:54:46.877 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:54:47.880 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:54:48.157 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:54:48.174 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:54:48.185 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:54:48.201 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:54:48.315 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:54:48.371 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.217 seconds (JVM running for 4.512)
+08:54:49.141 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [269] milliseconds.
+08:54:49.141 [http-nio-8888-exec-4] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [274] milliseconds.
+08:56:30.004 [main] INFO  com.baozi.TmallApplication - 1
+08:56:30.410 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 6076 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:56:30.410 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:56:31.326 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:56:31.326 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:56:31.326 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:56:31.467 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:56:31.467 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:56:31.576 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:56:31.623 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:56:32.633 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:56:32.937 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:56:32.970 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:56:32.980 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:56:32.998 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:56:33.158 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.084 seconds (JVM running for 4.081)
+08:56:36.173 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:56:36.430 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [189] milliseconds.
+08:57:27.490 [main] INFO  com.baozi.TmallApplication - 1
+08:57:27.896 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 18212 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:57:27.896 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:57:28.774 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:57:28.774 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:57:28.774 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:57:28.930 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:57:28.930 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:57:29.040 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:57:29.087 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:57:30.143 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:57:30.415 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:57:30.445 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:57:30.455 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:57:30.472 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:57:30.626 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:57:30.637 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.056 seconds (JVM running for 4.131)
+08:57:31.407 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [222] milliseconds.
+08:59:28.567 [main] INFO  com.baozi.TmallApplication - 1
+08:59:29.156 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 3352 (D:\tmall\target\classes started by yeguang in D:\tmall)
+08:59:29.156 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+08:59:30.081 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+08:59:30.082 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+08:59:30.082 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+08:59:30.250 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+08:59:30.253 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:59:30.385 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+08:59:30.447 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+08:59:31.426 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+08:59:31.704 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+08:59:31.724 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+08:59:31.736 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+08:59:31.755 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+08:59:31.757 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+08:59:31.923 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.259 seconds (JVM running for 4.389)
+08:59:32.505 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [217] milliseconds.
+09:00:22.792 [main] INFO  com.baozi.TmallApplication - 1
+09:00:23.293 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 14480 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:00:23.293 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:00:24.059 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:00:24.059 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:00:24.059 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:00:24.199 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:00:24.199 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:00:24.309 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:00:24.355 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:00:25.231 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:00:25.465 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:00:25.497 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:00:25.497 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:00:25.512 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:00:25.637 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.767 seconds (JVM running for 3.853)
+09:00:52.040 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:00:52.638 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [202] milliseconds.
+09:02:25.639 [main] INFO  com.baozi.TmallApplication - 1
+09:02:26.062 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 11648 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:02:26.062 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:02:27.274 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:02:27.274 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:02:27.275 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:02:27.434 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:02:27.439 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:02:27.565 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:02:27.623 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:02:28.578 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:02:28.844 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:02:28.862 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:02:28.872 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:02:28.888 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:02:28.934 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:02:29.054 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.322 seconds (JVM running for 4.369)
+09:02:29.704 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [234] milliseconds.
+09:03:06.807 [main] INFO  com.baozi.TmallApplication - 1
+09:03:07.292 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 9824 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:03:07.307 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:03:08.214 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:03:08.214 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:03:08.229 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:03:08.450 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:03:08.454 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:03:08.593 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:03:08.663 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:03:09.914 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:03:10.213 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:03:10.241 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:03:10.252 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:03:10.268 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:03:10.372 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:03:10.430 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.53 seconds (JVM running for 4.615)
+09:03:10.605 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [201] milliseconds.
+09:03:58.335 [main] INFO  com.baozi.TmallApplication - 1
+09:03:58.725 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 9816 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:03:58.725 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:03:59.523 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:03:59.523 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:03:59.523 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:03:59.663 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:03:59.663 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:03:59.788 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:03:59.835 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:04:00.835 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:04:01.070 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:04:01.086 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:04:01.101 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:04:01.117 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:04:01.273 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.806 seconds (JVM running for 3.959)
+09:04:04.856 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:04:05.689 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [202] milliseconds.
+09:05:39.027 [http-nio-8888-exec-2] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 73634
+09:05:41.919 [http-nio-8888-exec-7] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 76583
+09:05:41.919 [http-nio-8888-exec-10] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 76583
+09:09:18.374 [http-nio-8888-exec-7] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 203515
+09:09:18.376 [http-nio-8888-exec-2] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 203526
+09:09:18.378 [http-nio-8888-exec-2] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 203532
+09:09:18.378 [http-nio-8888-exec-7] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 203529
+09:11:14.926 [http-nio-8888-exec-6] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 64086
+09:11:14.927 [http-nio-8888-exec-5] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 92287
+09:11:14.927 [http-nio-8888-exec-6] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 92288
+09:18:50.781 [http-nio-8888-exec-10] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 388096
+09:18:50.782 [http-nio-8888-exec-10] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 388097
+09:18:50.783 [http-nio-8888-exec-10] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 388097
+09:20:38.811 [main] INFO  com.baozi.TmallApplication - 1
+09:20:40.054 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 10328 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:20:40.056 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:20:41.935 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:20:41.935 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:20:41.936 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:20:42.202 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:20:42.210 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:20:42.342 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:20:42.490 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:20:44.079 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:20:44.395 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:20:44.415 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:20:44.427 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:20:44.444 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:20:44.591 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:20:44.652 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 5.583 seconds (JVM running for 7.543)
+09:20:44.828 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [203] milliseconds.
+09:21:25.578 [main] INFO  com.baozi.TmallApplication - 1
+09:21:26.111 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 14672 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:21:26.114 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:21:27.099 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:21:27.100 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:21:27.100 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:21:27.282 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:21:27.286 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:21:27.449 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:21:27.520 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:21:28.638 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:21:28.917 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:21:28.935 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:21:28.946 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:21:28.971 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:21:29.128 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.425 seconds (JVM running for 4.747)
+09:21:29.150 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:21:29.385 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [206] milliseconds.
+09:22:49.043 [main] INFO  com.baozi.TmallApplication - 1
+09:22:49.354 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 12672 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:22:49.356 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:22:50.191 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:22:50.191 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:22:50.191 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:22:50.362 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:22:50.372 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:22:50.512 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:22:50.567 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:22:51.598 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:22:51.875 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:22:51.898 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:22:51.910 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:22:51.930 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:22:51.933 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:22:52.118 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.009 seconds (JVM running for 3.987)
+09:22:52.191 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [228] milliseconds.
+09:23:46.763 [main] INFO  com.baozi.TmallApplication - 1
+09:23:47.148 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 9116 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:23:47.150 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:23:48.083 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:23:48.084 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:23:48.084 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:23:48.239 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:23:48.243 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:23:48.361 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:23:48.414 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:23:49.477 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:23:49.736 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:23:49.754 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:23:49.775 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:23:49.792 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:23:49.933 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.083 seconds (JVM running for 4.181)
+09:23:53.361 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:23:53.605 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [205] milliseconds.
+09:24:51.967 [main] INFO  com.baozi.TmallApplication - 1
+09:24:52.336 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 16912 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:24:52.338 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:24:53.260 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:24:53.260 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:24:53.261 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:24:53.425 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:24:53.430 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:24:53.547 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:24:53.605 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:24:54.623 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:24:54.907 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:24:54.926 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:24:54.938 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:24:54.955 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:24:54.992 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:24:55.114 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.072 seconds (JVM running for 4.168)
+09:24:55.231 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [208] milliseconds.
+09:25:44.129 [main] INFO  com.baozi.TmallApplication - 1
+09:25:44.526 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 11588 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:25:44.532 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:25:45.489 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:25:45.489 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:25:45.490 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:25:45.665 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:25:45.670 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:25:45.789 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:25:45.846 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:25:46.841 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:25:47.115 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:25:47.134 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:25:47.146 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:25:47.165 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:25:47.172 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:25:47.322 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.112 seconds (JVM running for 4.19)
+09:25:47.420 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [217] milliseconds.
+09:27:45.865 [main] INFO  com.baozi.TmallApplication - 1
+09:27:46.183 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 16832 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:27:46.185 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:27:47.023 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:27:47.024 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:27:47.024 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:27:47.172 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:27:47.176 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:27:47.285 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:27:47.335 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:27:48.315 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:27:48.552 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:27:48.591 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:27:48.605 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:27:48.627 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:27:48.806 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.875 seconds (JVM running for 3.89)
+09:27:49.965 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:27:50.261 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [239] milliseconds.
+09:29:13.321 [main] INFO  com.baozi.TmallApplication - 1
+09:29:13.654 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 3372 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:29:13.657 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:29:14.528 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:29:14.529 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:29:14.529 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:29:14.686 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:29:14.690 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:29:14.808 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:29:14.859 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:29:15.837 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:29:16.117 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:29:16.137 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:29:16.148 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:29:16.167 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:29:16.202 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:29:16.327 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.934 seconds (JVM running for 3.934)
+09:29:16.440 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [206] milliseconds.
+09:30:07.123 [main] INFO  com.baozi.TmallApplication - 1
+09:30:07.532 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 3720 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:30:07.535 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:30:08.541 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:30:08.541 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:30:08.541 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:30:08.695 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:30:08.699 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:30:08.818 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:30:08.874 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:30:10.168 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:30:10.424 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:30:10.458 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:30:10.469 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:30:10.486 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:30:10.488 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:30:10.650 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.454 seconds (JVM running for 4.528)
+09:30:10.731 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [211] milliseconds.
+09:31:55.968 [main] INFO  com.baozi.TmallApplication - 1
+09:31:56.346 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 17716 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:31:56.348 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:31:57.164 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:31:57.164 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:31:57.164 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:31:57.314 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:31:57.318 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:31:57.426 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:31:57.477 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:31:58.559 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:31:58.804 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:31:58.834 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:31:58.844 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:31:58.861 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:31:59.004 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.935 seconds (JVM running for 3.962)
+09:35:52.687 [main] INFO  com.baozi.TmallApplication - 1
+09:35:53.121 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 14088 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:35:53.123 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:35:54.081 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:35:54.081 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:35:54.082 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:35:54.250 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:35:54.254 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:35:54.381 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:35:54.453 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:35:55.888 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:35:56.173 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:35:56.205 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:35:56.215 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:35:56.233 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:35:56.385 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.626 seconds (JVM running for 4.609)
+09:35:56.425 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:35:56.679 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [225] milliseconds.
+09:36:29.114 [main] INFO  com.baozi.TmallApplication - 1
+09:36:29.496 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 3048 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:36:29.501 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:36:30.485 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:36:30.485 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:36:30.485 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:36:30.670 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:36:30.675 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:36:30.834 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:36:30.927 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:36:32.265 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:36:32.532 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:36:32.560 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:36:32.570 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:36:32.585 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:36:32.726 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.53 seconds (JVM running for 4.525)
+09:36:35.972 [main] INFO  com.baozi.TmallApplication - 1
+09:36:36.380 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 16420 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:36:36.382 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:36:37.331 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:36:37.331 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:36:37.332 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:36:37.502 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:36:37.507 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:36:37.626 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:36:37.677 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:36:38.756 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:36:39.133 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:36:39.154 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:36:39.165 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:36:39.185 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:36:39.258 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:36:39.347 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.3 seconds (JVM running for 4.317)
+09:36:39.512 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [222] milliseconds.
+09:37:27.966 [main] INFO  com.baozi.TmallApplication - 1
+09:37:28.302 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 14548 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:37:28.305 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:37:29.168 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:37:29.168 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:37:29.168 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:37:29.316 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:37:29.320 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:37:29.431 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:37:29.494 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:37:30.486 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:37:30.769 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:37:30.797 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:37:30.807 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:37:30.824 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:37:30.972 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 2.947 seconds (JVM running for 3.957)
+09:37:48.385 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:37:48.621 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [209] milliseconds.
+09:39:49.519 [main] INFO  com.baozi.TmallApplication - 1
+09:39:49.857 [main] INFO  com.baozi.TmallApplication - Starting TmallApplication on DESKTOP-0H289S5 with PID 15108 (D:\tmall\target\classes started by yeguang in D:\tmall)
+09:39:49.859 [main] INFO  com.baozi.TmallApplication - The following profiles are active: dev
+09:39:50.726 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+09:39:50.726 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:39:50.727 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+09:39:50.869 [main] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09:39:50.873 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:39:50.994 [main] INFO  com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:39:51.045 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:39:52.477 [main] INFO  springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+09:39:52.768 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+09:39:52.805 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+09:39:52.816 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+09:39:52.836 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+09:39:53.010 [main] INFO  com.baozi.TmallApplication - Started TmallApplication in 3.434 seconds (JVM running for 4.554)
+09:40:10.892 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:40:11.558 [http-nio-8888-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [206] milliseconds.
+09:43:31.331 [http-nio-8888-exec-6] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 184584
+09:43:31.331 [http-nio-8888-exec-1] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 184584
+09:43:31.331 [http-nio-8888-exec-4] WARN  com.alibaba.druid.pool.DruidAbstractDataSource - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/tmall?useSSL=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC, version : 1.2.5, lastPacketReceivedIdleMillis : 184584

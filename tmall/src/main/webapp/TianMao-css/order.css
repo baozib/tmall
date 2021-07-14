@@ -1,0 +1,292 @@
+div.myOrder_headBar {
+	width: 1000px;
+	margin: 0 auto;
+	/*padding: 10px;*/
+    padding-left: 0;
+    padding-bottom: 0;
+	/*border-bottom: 2px solid rgb(232, 232, 232);*/
+}
+div.myOrder_headBar:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+div.myOrder_headBar div.myOrder_headItem {
+	float: left;
+	text-align: center;
+	width: 100px;   
+    padding: 10px;
+    border-bottom: 2px solid rgb(232, 232, 232);
+}
+div.myOrder_headBar div.myOrder_lastone {
+    width: 500px;
+    height: 19px;
+    float: left;
+    margin-top: 25.5px;
+    border-bottom: 2px solid rgb(232, 232, 232);
+}
+div.myOrder_headBar div.myOrder_headItem a {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    width: 90px;
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 10px;
+    border-right: 1px solid rgb(232, 232, 232);
+}
+div.myOrder_headBar div.myOrder_headItem a:active {
+
+}
+/*div.myOrder_headBar div.myOrder_headItem:hover {
+	border-bottom: 2px solid rgb(196, 0, 0);
+}*/
+div.myOrder_headBar div.myOrder_headItem:hover a {
+	color: red;
+	text-decoration: none;
+}
+div.myOrder_tableTitle {
+	width: 1000px;
+	margin: 20px auto;
+	background-color: rgb(245, 245, 245);
+	line-height: 40px;
+	border: 1px solid rgb(232, 232, 232);
+}
+div.myOrder_tableTitle span{
+	display: inline-block;
+	text-align: center;
+    margin: 0 -3px;
+}
+
+div.myOrder_tableTitle span:nth-child(5){
+    position: relative;
+    margin-left: 15px;
+}
+
+div.myOrder_itemList {
+    width: 1000px;
+    margin: 20px auto;
+}
+div.myOrder_itemList table {
+    width: 1000px;
+    margin-top: 20px;
+    border: 1px solid rgb(232, 232, 232);
+}
+div.myOrder_itemList a.wangwanglick {
+    display: inline-block;
+    background-image:url(http://how2j.cn/tmall/img/site/wangwang.gif);
+}
+div.myOrder_itemList tr.myOrder_itemTitle {
+    background-color: rgb(241, 241, 241);
+    height: 40px;
+}
+div.myOrder_itemList tr.myOrder_itemTitle td.myOrder_desc {
+    /*padding: 10px;*/
+    padding-left: 10px;
+
+}
+
+.myOrder_desc span{
+    position: relative;
+    margin-left: 50px;
+}
+
+tr.myOrder_itemTitle_Content td.myOrder_desc {
+    width: 470px;
+}
+tr.myOrder_itemTitle_Content td.myOrder_desc a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: -30px;
+    color: rgb(184, 184, 184);
+}
+tr.myOrder_itemTitle_Content td.myOrder_desc div {
+    position: relative;
+    bottom: -10px;
+}
+div.myOrder_itemList tr.myOrder_itemTitle div.wangwanglink {
+    display: inline-block;
+    background-image: url("http://how2j.cn/tmall/img/site/wangwang.gif");
+    width: 67px;
+    height: 22px;
+}
+div.myOrder_itemList table td {
+    /*border: 1px solid black;*/
+}
+tr.myOrder_itemTitle_Content td.myOrder_pic {
+    display: inline-block;
+    margin: 10px;
+    width: 70px;
+} 
+td.wangwanglink, td.myOrder_sum {
+    text-align: center;
+}
+td.myOrder_sum {
+
+    border-right: 1px solid rgb(232, 232, 232);
+}
+td.myOrder_price {
+    width: 80px;
+    border-right: 1px solid rgb(232, 232, 232);
+}
+td.myOrder_amount {
+    width: 100px;
+    text-align: center;
+    border-right: 1px solid rgb(232, 232, 232);
+}
+td.orderItemDeleteTD a.deleteOrderLink {
+    color: gray;
+    font-size: 16px;
+}
+td.myOrder_confirm, td.orderItemDeleteTD{
+    text-align: center;
+    width: 110px;
+}
+td.myOrder_confirm button {
+    color: white;
+    background-color: rgb(102, 182, 255);
+    border: rgb(102, 182, 255);
+}
+tr.myOrder_itemTitle_Content td.myOrder_desc a:hover {
+    color: rgb(196, 0, 0);
+}
+div.myOrder_itemList table:hover {
+    outline: 2px solid rgb(170, 170, 170);
+}
+nav.top_outer {
+    background-color: rgb(242, 242, 242);
+    border-bottom:1px solid  #e7e7e7;
+    -moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090;
+    box-shadow:2px 2px 10px #909090;
+    height: 35px;
+    margin: 0 auto;
+    width: 100%;
+}
+nav div.top {
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    margin-left: 250px;
+}
+nav div.top a, nav div.top span {
+    color: rgb(156, 155, 154);
+    margin: 0 10px;
+    padding: 3px;
+}
+
+
+nav div.top a:hover {
+    text-decoration: none;
+    color: rgb(196, 0, 0);
+}
+.redColor {
+    color: rgb(196, 0, 0) !important;
+}
+.reverse {
+    transform: rotateY(180deg); /*原来的购物车图标方向向左，改成向右*/
+}
+
+.mainpage{
+    left: -20px;
+    position: relative;
+}
+.mainpage span{
+    left: 10px;
+}
+.shop-cart-pic span{
+    left: 10px;
+}
+a {
+    text-decoration: none;
+}
+.pull-right a{
+    position: relative;
+    top: -4px;
+}
+.pull-right a:nth-child(1){
+    position: relative;
+    margin-right: -20px;
+}
+.collect a img{
+    position: relative;
+    top: -1px;
+    left: -2px;
+}
+.box-collect:hover img{
+    transform: rotate(180deg);  
+    -webkit-transform: rotate(180deg);  
+    -moz-transform: rotate(180deg);  
+    -o-transform: rotate(180deg);  
+    -ms-transform: rotate(180deg);  
+}
+
+.arrow{  
+    margin: -15px 308px;  
+    display: block;  
+    transition: all 0.2s ease-in-out;  
+    -webkit-transition: all 0.2s ease-in-out;  
+    -moz-transition: all 0.2s ease-in-out;  
+    -o-transition: all 0.2s ease-in-out;  
+}  
+.logo-search-shopcart{
+    height: 100px;
+    background: red;
+    margin: 15px auto;
+
+}
+
+.logo-search-shopcart>img:nth-child(1){
+    width: 240px;
+    height: 40px;
+    position: relative;
+    margin-left: 260px;
+    top: 25px;
+    line-height: 40px;
+
+}
+.search{
+    position: absolute;
+    height: 40px;
+    width: 470px;
+    left: 300px;
+    top:40px;
+}
+.search input{
+    border: 2px solid red;
+    outline: none;
+    font-size: 14px;
+}
+.search span{
+    position: relative;
+    top: 40px;
+    left: 760px;
+    font-size: 18px;
+    font-weight: 600;
+    background: red;
+    border: 3px solid red;
+    color: white;
+    height: 40px;
+    width: 130px;
+    display: block;
+    padding-left: 40px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+.myOrder_ItemProductLinkOuterDiv{
+    top: 0px;
+    height: 90px;
+    width: 400px;
+}
+.content{
+    position: absolute !important;
+    top: 0px !important;
+    word-break: break-all; word-wrap:break-word;
+}
+.myOrder_ItemProductLinkInnerDiv{
+    position: relative;
+    top: 65px;
+}

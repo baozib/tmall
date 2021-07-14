@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
+#tail-grou{
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 1190px;
+    height: 354px;
+
+}
+.content-top a{
+    float: left;
+    margin-right: 60px;
+    text-decoration: none;
+    margin-top: 40px;
+    
+}
+.content-top a:nth-child(1){
+    margin-left: 60px;
+}
+.header-radius-one,.header-radius-two,.header-radius-three,.header-radius-four{
+    color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 4px solid red;
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 7px;
+    padding-top: 5px;
+    margin-top: 5px;
+    float: left;
+    margin-right: 20px;
+}
+.content-one,.content-two,.content-three,.content-four{
+    margin-top: 6px;
+    float: left;
+    font-size: 18px;
+}
+.content-one>div:nth-child(1),.content-three>div:nth-child(1),.content-two>div:nth-child(1),.content-four>div:nth-child(1){
+    color: black;
+    font-weight: bold;
+    margin-bottom: 2px;
+    
+}
+.content-one>div:nth-child(2),.content-three>div:nth-child(2),.content-two>div:nth-child(2),.content-four>div:nth-child(2){
+    color: rgb(180, 180, 180);
+    font-size: 17px;
+
+}
+.content-mid{
+    background: rgb(237, 237, 237);
+    position: absolute;
+    height: 2px;
+    width: 1190px;
+    top: 150px;
+}
+.content-tail{
+    /* background: royalblue; */
+    position: absolute;
+    height: 190px;
+    width: 1190px;
+    top: 170;
+}
+.content-tail div{
+    float: left;
+    margin-right: 115px;
+}
+.content-tail div:nth-child(1){
+    margin-left: 30px;
+}
+img {
+    width: 105px;
+    height: 105px;
+    position: relative;
+    left: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+    font-size: 12px;
+}
+ul{
+    margin: 6px;
+}
+.content-tail div ul:nth-child(1){
+    font-weight: bold;
+}

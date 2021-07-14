@@ -1,0 +1,1044 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size:12px;
+    font-family:Arial;
+    padding: 0;
+    margin: 0;
+
+    overflow-x:hidden
+}
+div.item img {
+    width: 100%;
+}
+
+.logo-search-shopcart{
+    margin: 0 auto;
+    height: 125px;
+    width: 1230px;
+}
+input{
+    padding-left: 10px;
+}
+.logo-search-shopcart>img:nth-child(1){
+    width: 240px;
+    height: 130px;
+    position: relative;
+    margin-left: -15px;
+}
+.search{
+    position: absolute;
+    height: 40px;
+    width: 500px;
+    margin-top: -130px;
+    margin-left: 0px;
+}
+.search input{
+    border: 2px solid red;
+    outline: none;
+    font-size: 14px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    width: 500px;
+    height: 40px;
+}
+.search span{
+    position: relative;
+    top: 10px;
+    left: 790px;
+    font-size: 18px;
+    font-weight: 600;
+    background: red;
+    border: 3px solid red;
+    color: white;
+    height: 40px;
+    width: 130px;
+    display: block;
+    padding-left: 40px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+div#carousel-outer {
+    width: 1230px;
+    height: 45px;
+    margin: 0px auto;
+    -moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090;
+    box-shadow:2px 2px 10px #909090;
+
+}
+
+div.headBar {
+    background-color: rgb(221, 39, 39);
+}
+div.headBar div.head {
+    display: inline-block;
+    width: 200px;
+    height: 45px;
+    line-height: 36px;
+    font-weight: bold; 
+    font-size: 17px;
+    margin:0 0px; 
+    color: white;
+    background: rgb(198, 10, 10);
+    margin-right: 30px;
+}
+
+div.headBar div.head span:nth-child(2){
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+
+div.headBar div.rightMenu {
+    display: inline-block;
+}
+div.headBar div.rightMenu img {
+    height: 30px;
+}
+div.headBar div.rightMenu span {
+    margin-right: 40px;
+    position: relative;
+    top: 7px;
+}
+div.headBar div.rightMenu span a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+div.headBar div.rightMenu img {
+    display: inline;
+    width: 95px;
+    height: 35px;
+    position: relative;
+    top: -2px;
+    
+}
+
+
+.carousel-inner{
+    -moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090;
+    box-shadow:2px 2px 10px #909090;
+}
+.carousel-inner div img{
+    width: 1230px;
+    height: 500px;
+
+}
+a {
+    text-decoration: none;
+}
+.navigation{
+    background: rgb(105, 105, 105);
+    height: 500px;
+    width: 200px;
+    position: absolute;
+    top: 45px;
+    opacity: 0.5;
+}
+.head svg{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+    left: 16px;
+}
+.navigation>div{
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 2px;
+}
+.navigation>div a{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 4px;
+    outline: none;
+}
+
+.navigation>div a:hover{
+    text-decoration: red;
+    color: red;
+    
+}
+.one{
+    height: 30px;
+    width: 200px;
+}
+.two{
+    height: 30px;
+    width: 200px;
+    top: 30px;
+}
+.three{
+    height: 30px;
+    width: 200px;
+    top: 60px;
+}
+.four{
+    height: 30px;
+    width: 200px;
+    top: 90px;
+}
+.five{
+    height: 30px;
+    width: 200px;
+    top: 120px;
+}
+.six{
+    height: 30px;
+    width: 200px;
+    top: 150px;
+}
+.seven{
+    height: 30px;
+    width: 200px;
+    top: 180px;
+}
+.eight{
+    height: 30px;
+    width: 200px;
+    top: 210px;
+}
+.nine{
+    height: 30px;
+    width: 200px;
+    top: 240px;
+}
+.ten{
+    height: 30px;
+    width: 200px;
+    top: 270px;
+}
+.eleven{
+    height: 30px;
+    width: 200px;
+    top: 300px;
+}
+.thirteen{
+    height: 30px;
+    width: 200px;
+    top: 330px;
+}
+.fourteen{
+    height: 30px;
+    width: 200px;
+    top: 360px;
+}
+.fifteen{
+    height: 30px;
+    width: 200px;
+    top: 390px;
+}
+.sixteen{
+    height: 30px;
+    width: 200px;
+    top: 420px;
+}
+.seventeen{
+    height: 30px;
+    width: 200px;
+    top: 450px;
+}
+.brand{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 324px;
+    background: white;
+    -moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090;
+    box-shadow:2px 2px 10px #909090;
+}
+#back-pic{
+    background: url(../images/背景图2.jpg) no-repeat;
+    margin:  0 auto;
+    background-size: 100% 100%;
+    height: 940px;
+}
+.brand-one{
+    height: 108px;
+
+}
+.brand-one div,.brand-two div,.brand-three div{
+    float: left;
+    width: 123px;
+    height: 108px;
+    border: 1px solid rgb(245, 245, 245);
+}
+.brand-two{
+    height: 108px;
+
+}
+
+.brand-three{
+    height: 108px;
+
+}
+.brand-one div a,.brand-two div a,.brand-three div a{
+    position: absolute;
+    height: 108px;
+    width: 123px;
+
+}
+.brand-one div a img,.brand-two div a img,.brand-three div a img{
+   width: 105px;
+   height: 55px;
+   position: relative;
+   margin-left: 7px;
+   margin-top: 24px;
+}   
+.switch-content svg{
+   width: 30px;
+   height: 30px;
+   position: relative;
+   margin-left: 45px;
+   margin-top: 26px;
+}
+.switch-content span{
+    position: absolute;
+    margin-left: 42px;
+    color: gray;
+    text-decoration: none;
+    outline: none;
+    display: block;
+}
+.switch-content:hover{
+    background: red;
+    color: 
+    white;
+}
+.switch-content:hover span{
+    color: white;
+}
+.switch-content:hover svg{
+    transform: rotate(360deg);  
+    -webkit-transform: rotate(360deg);  
+    -moz-transform: rotate(360deg);  
+    -o-transform: rotate(360deg);  
+    -ms-transform: rotate(360deg);  
+}
+.icon{
+    transition: all 0.2s ease-in-out;  
+    -webkit-transition: all 0.2s ease-in-out;  
+    -moz-transition: all 0.2s ease-in-out;  
+    -o-transition: all 0.2s ease-in-out;  
+}
+.back-cont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 108px;
+    width: 123px;
+    background: black;
+    opacity: 0.7;
+    display: none;
+    
+}
+.a-one:hover .back-cont{
+    display: block;
+}
+.mybtn{
+    position: absolute;
+    width: 78px;
+    height: 17px;
+    font-size: 12px;
+    background: red;
+    color: white;
+    border-radius: 20px;
+    padding: 0;
+    left: 22px;
+    top: 40px;
+    text-align: center;
+}
+.cra-pic{
+
+    height: 40px;
+    width: 800px;
+    position: absolute;
+    top: 128px;
+    left: 330px;
+}
+.cra-pic>img{
+    height: 37px;
+    width: 90px;
+    float: left;
+    margin-left: 50px;
+    visibility: hidden;
+}
+.cra-pic>img:nth-child(3){
+   margin-left: 35px;
+}
+.cra-pic>img:nth-child(4){
+    margin-left: 10px;
+}
+
+.cra-pic>img:nth-child(5){
+    margin-left: 100px;
+}
+.cra-pic>img:nth-child(6){
+    margin-left: 10px;
+}
+.life-goods{
+    height: 618px;
+    width: 1230px;
+    margin: 50px auto;
+    background: rgb(245, 245, 245);
+    -moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090;
+    box-shadow:2px 2px 10px #909090;
+}
+
+
+.life-goods div,.life-goods>img{
+    float: left;
+}
+.life-goods-one>img{
+    height: 190px;
+    width: 190px;
+    position: relative;
+    left: 20px;
+}
+.life-goods-one{
+    height: 300px;
+    width: 231.775px;
+    background: white;
+    margin-left: 13px;
+    margin-bottom: 12px;
+    margin-right: 3px;
+    border: 3px solid white;
+}
+
+
+.life-goods-one:hover{
+    border: 3px solid red;
+    opacity: 0.9;
+}
+.font-goods{
+    font-size: 13px;
+    font-weight: bold;
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    left: 20px;
+}
+.under-goods{
+    background: rgb(229,229,229);
+    width: 200px;
+    height: 1px;
+    margin: 0 auto;
+    position: relative;
+    left: 20px;
+    margin-top: 5px;
+}
+.big-pic:hover{
+    animation-name: myframe;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+.cleanfloat::after{
+    display: block;
+    clear: both;
+    content:""; 
+    visibility: hidden; 
+    height: 0;
+}/*清浮动*/
+div li{
+    list-style:none; 
+    float:left; 
+    font-size:15px; 
+    left: 15px;
+    margin: 5px;
+    color:#ccc; 
+    position: relative;
+}/*五角星样式*/
+
+.price-goods{
+    color: red;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+@keyframes myframe{
+    0%{opacity: 1;}
+    20% {opacity: 0.9;}
+    40% {opacity: 0.8;}
+    60% {opacity: 0.7;}
+    80% {opacity: 0.6;}
+    100% {opacity: 0.5;}
+}
+.hanguo{
+    position: absolute;
+    display: block;
+    background: black;
+    margin-top: 430px;
+    color: white;
+    height: 60px;
+    width: 55px;
+    font-size: 17px;
+    padding: 5px;
+    padding-left: 10px;
+}
+.spec{
+    position: absolute;
+    display: block;
+    background: black;
+    margin-top: 430px;
+    color: white;
+    height: 60px;
+    width: 140px;
+    font-size: 17px;
+    padding: 5px;
+    margin-left: 55px;
+    padding:5px;
+    background-color:rgba(33, 33, 34, 0.7)
+}
+.top-fixed{
+    position: fixed;
+    height: 50px;
+    background: rgb(255,13,64);
+    top: 0;
+    width: 100%;
+    font-style: initial;
+    display: none;
+    z-index: 2;
+}
+.top-fixed span{
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 270px;
+
+}
+.top-text{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 500px;
+    height: 30px;
+    width: 600px;
+    text-decoration: none;
+    outline: none;
+}
+.top-search{
+    color: white;
+    background: red;
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 1100px;
+    border: 0 none;
+    font-size: 17px;
+    text-decoration: none;
+    outline: none;
+}
+.top-search:focus{
+    border: 0 none;
+    outline: none;
+}
+.recycle{
+    background: rgb(221,223,223);
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 170px;
+    border-radius: 50px;
+
+}
+.recycle img{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    margin-left: 7px;
+    margin-top: 7px;
+
+}
+.mid-pic{
+    width: 1230px;
+    margin: 0 auto;
+    height: 70px;
+    margin-bottom: 30px;
+}
+.mid-pic img{
+    width: 1230px;
+}
+.image-each{
+    margin: 5px auto;
+    width: 300px;
+    height: 300px;
+    left: -380px;
+    top: -325px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(-20deg) rotateY(-20deg);
+    animation: rotate 12s linear alternate infinite;
+}
+.image-each .item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    cursor: pointer;
+    border: 1px solid rgb(241, 241, 241);
+}
+.image-each .fronti{
+    transform: translateZ(150px);
+}
+.image-each .backi{
+    transform: rotateY(180deg) translateZ(150px);
+}
+.image-each .lefti{
+    transform: rotateY(-90deg) translateZ(150px);
+}
+.image-each .righti{
+    transform: rotateY(90deg) translateZ(150px);
+}
+.image-each .topi{
+    transform: rotateX(90deg) translateZ(150px);
+}
+.image-each .bottomi{
+    transform: rotateX(-90deg) translateZ(150px);
+}
+@keyframes rotate{
+    0%,10%{
+        transform: rotateY(90deg);
+    }
+    20%,40%{
+        transform: rotateY(180deg);
+    }
+    40%,50%{
+        transform: rotateY(270deg);
+    }
+    50%,70%{
+        transform: rotateX(-90deg);
+    }
+    70%,80%{
+        transform: rotateX(0);
+    }
+    80%,100%{
+        transform: rotateX(90deg);
+    }
+
+}
+.left-fixed{
+    background: red;
+    height: 300px;
+    width: 40px;
+    position: fixed;
+    top: 480px;
+    left: 200px;
+}
+.tianmao-guoji{
+    position: absolute;
+    margin-top: -40px;
+}
+.tianmao-guoji img{
+    height: 27px;
+    width: 230px;
+}
+.alert{
+    position: fixed;width: 200px;height: 50px; top: 380px; left: 780px; font-size: 17px;
+}
+.shop-car{
+    position: fixed;
+    height: 700px;
+    width: 400px;
+    right: 0;
+    overflow-y:visible;
+    background: rgb(241,241,241);
+    top: 50px;
+    -moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090;
+    box-shadow:2px 2px 10px #909090;
+    border-right: 2px solid rgb(221,223,223);
+    display: none;
+    z-index: 4;
+    transition: all .5s;
+}
+.operation-shop-msg{
+    position: absolute;
+    height: 60px;
+    width: 400px;
+    background: white;
+    left: 0px;
+    top: 640px;
+    border-top: 1px solid rgb(221,223,223);
+}
+.operation-shop-msg>div{
+    float: left;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+.all-select{
+    position:absolute;
+    width: 24px;
+    height: 24px;
+    background: white;
+    border-radius: 50px;
+    border:1px solid rgb(160, 163, 163);
+    cursor: pointer;
+    bottom: 0;
+}
+.all-select img{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    top: 5px;
+    left: 4px;
+}
+.all-select:hover{
+    background: red;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+.zhong{
+    background: red;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+.zhong-border{
+    border: 1px solid red !important;
+}
+
+.operation-shop-msg>div:nth-child(1){
+    position: relative;
+    
+}
+.operation-shop-msg>div:nth-child(2){
+    position: relative;
+    top: 1px;
+    font-size: 15px;
+    color: rgb(117, 112, 112);
+    left: 0px;
+}
+.operation-shop-msg>div:nth-child(3){
+    font-size: 17px;
+    position: relative;
+    top: 0px;
+    font-weight: bold;
+    left: 77px;
+}
+.operation-shop-msg>div:nth-child(4){
+    font-size: 16px;
+    position: relative;
+    top: 1px;
+    font-weight: bold;
+    left: 72px;
+    color: red;
+    width: 70px;
+}
+.operation-shop-msg>div:nth-child(5){
+    font-size: 15px;
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+    left: 65px;
+    border-radius: 25px;
+    background: red;
+    width: 85px;
+    text-align: center;
+    color: white;
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.manager-shop-msg{
+    position: absolute;
+    background: white;
+    top: 0;
+    left: 0;
+    height: 65px;
+    width: 400px;
+    border-bottom: 1px solid rgb(221,223,223);;
+}
+.manager-shop-msg>div{
+    float: left;
+
+}
+.manager-shop-msg>div:nth-child(1){
+    position: relative;
+    height: 40px;
+    width: 80px;
+    color: black;
+    font-size: 22px;
+    left: 10px;
+    
+}
+
+.manager-shop-msg>div:nth-child(2){
+    position: relative;
+    color: black;
+    left: 220px;
+    font-size: 16px;
+    top: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.manager-shop-msg>div:nth-child(3){
+    position: relative;
+    color: black;
+    left: -98px;
+    top: 37px;
+}
+.manager-shop-msg>div:nth-child(4){
+    position: relative;
+    left: 180px;
+    top: 3px;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    background: red;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+}
+.shop-msg-list{
+    background: rgb(241,241,241);
+    position: relative;
+    width: 400px;
+    top: 65px;
+    height: 575px;
+    overflow-y: auto;
+}
+.shop-msg-list>div{
+    position: relative;
+    float: left;
+}
+.shopNo{
+    width: 375px;
+    background: white;
+    height: 120px;
+    border-radius: 10px;
+    position: relative;
+    left: 5px;
+    margin-top: 10px;
+    -moz-box-shadow: 1px 1px 5px #909090;
+    -webkit-box-shadow: 1px 1px 5px #909090;
+    box-shadow:1px 1px 5px #909090;
+    border: 1px solid rgb(160, 163, 163);
+    cursor: pointer;
+}
+.shopNo:hover{
+   border: 1px solid red;
+}
+.shopNo-btn{
+    position: absolute;
+    top: 45px;
+    left: 10px;
+}
+.shopNo>img{
+    position: absolute;
+    top: 8px;
+    left: 50px;
+    width: 105px;
+    height: 105px;
+    border: 1px solid rgb(91, 95, 95);
+}
+.shop-msg-self{
+
+    position: absolute;
+    top: 8px;
+    left: 170px;
+    width: 190px;
+    height: 70px;
+    font-size: 15px;
+    
+}
+
+.shop-price{
+    position: absolute;
+    color: red;
+    width: 100px;
+    height: 30px;
+    top: 80px;
+    left: 170px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+
+.test-1::-webkit-scrollbar {/*滚动条整体样式*/
+        width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+        height: 1px;
+}
+
+.test-1::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+    border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+     background: #706d6d;
+}
+
+.test-1::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #EDEDED;
+
+}
+nav.top_outer {
+    background-color: rgb(242, 242, 242);
+    border-bottom:1px solid  #e7e7e7;
+    -moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090;
+    box-shadow:2px 2px 10px #909090;
+    height: 35px;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.myself-name{
+    background: rgb(242,242,242) !important;
+    text-decoration: none !important;
+    outline: none !important;
+    font-size: 14px !important;
+}
+nav div.top {
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 4px;
+    /*padding-bottom: 5px;*/
+    margin-left: 250px;
+}
+nav div.top a, nav div.top span {
+    color: rgb(156, 155, 154);
+    margin: 0 10px;
+    padding: 3px;
+}
+
+
+nav div.top a:hover {
+    text-decoration: none;
+    color: rgb(196, 0, 0);
+}
+.redColor {
+    color: rgb(196, 0, 0) !important;
+}
+.reverse {
+    transform: rotateY(180deg); /*原来的购物车图标方向向左，改成向右*/
+}
+
+.mainpage{
+    left: -20px;
+    position: relative;
+}
+.mainpage span{
+    left: 10px;
+}
+.shop-cart-pic span{
+    left: 10px;
+}
+a {
+    text-decoration: none;
+}
+
+.pull-right{
+    position: relative;
+    left: 500px;
+}
+.pull-right a{
+    position: relative;
+
+}
+.pull-right a:nth-child(1){
+    position: relative;
+    margin-right: -20px;
+}
+.collect{
+    position: relative;
+    left: -100px;
+    width: 200px !important;
+}
+.box-collect:hover img{
+    transform: rotate(180deg);  
+    -webkit-transform: rotate(180deg);  
+    -moz-transform: rotate(180deg);  
+    -o-transform: rotate(180deg);  
+    -ms-transform: rotate(180deg);  
+}
+
+.arrow{  
+
+    transition: all 0.2s ease-in-out;  
+    -webkit-transition: all 0.2s ease-in-out;  
+    -moz-transition: all 0.2s ease-in-out;  
+    -o-transition: all 0.2s ease-in-out;  
+}  
+
+.second-pic{
+
+    width: 1232px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+.second-pic>img{
+    height: 170px;
+    float: left;
+}
+.life-goods-one{
+    cursor: pointer;
+}
+.form-control{
+    text-align: center;
+}
+
+.address-select>*,.address-insert>*{
+    float: left;
+}
+.address-delete{
+    width: 55px;
+    height: 35px;
+    background: rgb(0,123,255);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 35px;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+}
+
+.address-tianjia{
+    width: 55px;
+    height: 35px;
+    background: rgb(0,123,255);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 35px;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+}
+
+.custom-select{
+    width: 280px !important;
+}
+#validationServer04{
+    width: 280px !important;
+}
+
+.discolorationYellow{
+    background: rgb(221,223,223);
+
+}
